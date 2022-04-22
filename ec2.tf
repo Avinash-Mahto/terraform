@@ -1,3 +1,4 @@
+# This code is to create ec2 instances
 provider "aws" {
     access_key = ""
     secret_key = ""
