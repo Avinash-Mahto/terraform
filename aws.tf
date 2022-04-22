@@ -1,4 +1,6 @@
 # aws services
+# This is testing of git
+
 provider "aws" {
   profile    = "${var.profile}"
   region     = "${var.region}"
