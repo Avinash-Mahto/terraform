@@ -2,7 +2,7 @@
 # This is testing of git
 # This is for Tag testing
 
-provider "aws" {
+provider "gcp" {
   profile    = "${var.profile}"
   region     = "${var.region}"
 }
