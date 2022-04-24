@@ -1,5 +1,6 @@
 # This code is to create ec2 instances
-provider "aws" {
+
+provider "gcp" {
     access_key = ""
     secret_key = ""
     region = "us-east-1"
