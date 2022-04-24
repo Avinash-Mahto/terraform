@@ -7,7 +7,7 @@ provider "aws" {
   region     = "${var.region}"
 }
 
-resource "aws_instance" "DB-server" {
+resource "aws_instance" "web-server" {
   ami           = "ami-0d058fe428540cd89"
   instance_type = "t2.micro"
 
